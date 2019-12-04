@@ -1,3 +1,2 @@
 # Plot Gaussian distributions
-Just some code to plot gaussian distributions. 
-Checkout if you like them Smooth bell curves.
+Checkout if you like them Smooth bell curves and how to plot them.
