@@ -1,7 +1,4 @@
-import matplotlib.pyplot as plt
-import numpy as np
-from scipy.interpolate import spline 
-import math
+from math import exp, sqrt, pi
 
 #================================================================
 
@@ -31,18 +28,5 @@ def gaussian(array):
   L = len(array)
   y = [0]*L
   for i in range(L) :
-      y[i] = (1/math.sqrt(2*math.pi*v)) * (math.exp(-(x[i]-m)**2/(2*v)))
+      y[i] = (1/sqrt(2*pi*v)) * (exp(-(x[i]-m)**2/(2*v)))
   return y
-
-#================================================================
-
-X = np.array([1,2,3,4,5])
-K = gaussian(X)
-Y = np.array(K)
-
-X_new = np.linspace(X.min(), X.max(), 300)  
-
-Y_smooth = spline(X, Y, X_new)
-
-plt.plot(X_new, Y_smooth)
-plt.show()
