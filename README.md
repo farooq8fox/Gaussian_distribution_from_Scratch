@@ -1,2 +1,7 @@
 # Plot Gaussian / Normal distributions
-Checkout if you like them Smooth bell curves and how to plot them.
+
+Just for fun 
+
+<img src="https://github.com/nimblefox/Gaussian_distribution_from_Scratch/blob/master/1.png" width="90%"></img> 
+<img src="https://github.com/nimblefox/Gaussian_distribution_from_Scratch/blob/master/2.png" width="90%"></img>
+<img src="https://github.com/nimblefox/Gaussian_distribution_from_Scratch/blob/master/3.png" width="90%"></img>
